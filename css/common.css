@@ -1,0 +1,171 @@
+header{
+    width:100%;
+    height:auto;
+    border:0px solid cyan;
+}
+.inner-line{
+    border:0px solid red;
+    width:74%;
+    height:40px;
+    margin:0 auto;
+}
+.inner-line a{
+    border: 0px solid #cacaca;
+    border-radius: 3px;
+    background-color: #0b7914;
+    color: #fdfcfc;
+	font-size: 15px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+    padding:5px;
+    margin-top: 3px;
+    display: inline-block;
+}
+.inner{
+    width:100%;
+    height:100%;
+    background: #8BCD4E;
+    border:0px solid red;
+    margin:0 auto;
+    display:block;
+    overflow: hidden;
+}
+#topnav{
+    border:0px solid rgb(91, 105, 104);
+    width:74%;
+    height:90px;
+    margin:0 auto;
+
+}
+.inner h1.pc-logo{
+    border:0px solid red;
+    float:left;
+    padding-top: 24px; /*1.41vw대략적*/
+	margin-right: 60px; /*2.19vw*/
+}
+.inner h1.pc-logo a{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-style:normal;
+    font-size:35px;
+    color:#fff;
+}
+
+.inner nav{
+    border:0px solid grey;
+    float:left;
+}
+.inner nav ul.gnb{
+    border: 0px solid lightsalmon;
+	text-align: center;
+    padding-top: 37px; /*1.16vw*/
+   
+}
+.inner nav ul.gnb li{
+    border: 0px solid lightslategray;
+	display: inline; /*강제 인라인화 수평구조,사이여백6px*/
+    margin: 20px 50px 32px 5px; /*1.61vw 1.61vw 1.67vw 0.26  */
+}
+.inner nav ul.gnb li a{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-style:normal;
+    font-size: 19px;
+    color: #fff;
+}
+
+/*로그인/회원가입*/
+.inner div#infoMenu {
+	border: 0px solid cyan;
+	float: right;
+}
+
+.inner div#infoMenu ul#info {
+	border: 0px solid yellow;
+	float: right;
+	padding: 39px 0 8px;
+}
+.inner div#infoMenu ul#info li {
+	border: 0px solid red;
+	display: inline-block;
+}
+.inner div#infoMenu ul#info li:last-child {
+background: url("../images/header/login_short_line.png") no-repeat 0 0px;
+}
+
+.inner div#infoMenu ul#info li a{
+    color: #797979;
+	font-size: 12px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	display: inline-block;
+	padding: 0 8px 0 13px;
+}
+
+/*********footer start*********/
+footer{
+    background:#242830;    
+    width:100%;
+    height:250px;
+}
+footer .item-wrapper{
+    border:0px solid lightgoldenrodyellow;
+    width:74%;
+    height:auto;
+    margin:0 auto;
+    padding-top: 50px;
+}
+footer .item-wrapper .notice{
+    border:0px solid indigo;
+    width:60%;
+    height:auto;
+    display:inline-block;
+}
+footer .item-wrapper ul li{
+	color: #919191;
+	font-size: 0.74vw; /*14px;*/
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1.69; /*24px;*/
+}
+
+footer .item-wrapper ul.box01{
+    border:0px solid red;
+    width:100%;
+    height:auto;
+}
+footer .item-wrapper ul.box01 li{
+    border:0px solid green;
+	height: auto;
+	overflow: hidden;
+	display: inline-block;
+    padding-bottom: 20px;
+}
+footer .item-wrapper ul.box01 li a{
+    color:#919191;
+    font-size: 0.74vw; /*14px;*/
+	font-family: 'Noto Sans KR', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+}
+
+footer .item-wrapper ul.box02{
+    border:0px solid green;
+    width:100%;
+    height:auto;
+}
+footer .item-wrapper ul.box02 li{
+    border:0px solid blue;
+}
+footer .item-wrapper .box03{
+    border:0px solid red;
+    float:right
+}
+
+
+
+
+/*********footer end*********/
